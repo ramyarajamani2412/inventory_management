@@ -1,0 +1,51 @@
+#Introduction 
+The inventory management system is a software application designed to help business track and manage their inventory. The system provides real time tracking and control over the stock of products or materials ensuring efficient supply chain management and ability to make informed decision regarding purchasing sales and inventory restocking.
+
+ #Scope
+The scope of the project is to design develop and implement a inventory management system that enables the end user to efficiently manage the user id, name, quantity and price. The system will provide end user with a user-friendly interface to search for details and manage their accounts.
+
+#Functional Requirement
+User management
+1.	Users should be able to add new products to the system with details including product name, unique ID, description, category, price, supplier information, and sock levels.
+2.	Users should be able to remove products from the system, with appropriate validation to ensure that a product is not deleted if there are pending orders or stock associated with it.
+3.	Users should be able to search products by name, ID, category, or other attributes and filter the results by stock level, price range, etc.
+
+Adding items
+1.	This system allows the end user to add items such as unique Id, names, qualities and prices.
+2.	The Id will be unique and this system will prevent adding more items when the inventory reaches its maximum capacity.
+
+Search items
+1.	This system will display the details of the particular item when the Id is given as the input
+2.	This system will provide a user-friendly message when the Id is wrong or the product is out of stock.
+
+
+Update items
+This system will allow the end user to update the restock details and they can add new product details if needed.
+
+Deleting items
+1.	This system will remove an item from the inventory by its Id.
+2.	If any items removed so, the system will automatically adjust the array to ensure no empty gaps exist.
+
+Calculation part
+The system will allow the user to calculate the total inventory value 
+Total Value = Quantity * Price (summed over all items).
+
+Validation and error handling
+1.	The system will ensure proper input validation for numeric and string input
+2.	The system provides user friendly error message for invalid operation
+ 
+
+#Non-Functional requirements
+Performance
+1.	The system shall respond to user input within 2 seconds.
+2.	The system shall handle a minimum of 100 concurrent users.
+Usability
+1.	The system shall have an intuitive user interface.
+2.	The system shall provide clear instruction and feedback to user.
+Future scope
+1.	The inventory management system can be further enhanced by integrating it  with other branches.
+2.	The system can enhance its security level.
+
+
+
+
